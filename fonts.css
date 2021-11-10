@@ -1,0 +1,24 @@
+@font-face {
+    font-family: playfair;
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtM.woff2);
+}
+@font-face {
+    font-family: avenir;
+    src: url(https://static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2);
+@font-face {
+        font-family: brandon;
+        src: url(https://static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/69b40392-453a-438a-a121-a49e5fbc9213.woff2);
+    }
+}
+
+:root{
+    --playfair-25: clamp(13px, calc(3vw - 0.2em), 25px) palyfair, serif;
+    --playfair-24: clamp(11.5px, calc(3vw - 0.2em), 24px) palyfair, serif;
+    --avenir-25: clamp(13px, calc(3vw - 0.2em), 25px) avenir, serif;
+    --avenir-14: clamp(7px, calc(2vw - 0.2rem), 14px) avenir, sans-serif;
+    --playfair-170: clamp(45px, calc(14vw - 0.5rem), 170px) palyfair, serif;
+    --playfair-84: clamp(20px, calc(14vw - 3rem), 84px) playfair, serif;
+    --brandon-18: clamp(9px, calc(2vw - 0.2rem), 15px) brandon, sans-serif;
+    --font_8: 18px/1.4em brandon-grot-w01-light,sans-serif;
+
+}
